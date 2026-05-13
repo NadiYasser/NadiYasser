@@ -151,9 +151,11 @@ Visualization: Power BI, Tableau
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=NadiYasser&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Yasser's GitHub Stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NadiYasser&theme=tokyonight" alt="Yasser's GitHub profile summary" />
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NadiYasser&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NadiYasser&theme=tokyonight" alt="Yasser's GitHub stats" />
+
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NadiYasser&theme=tokyonight" alt="Top languages by repository" />
 
 <br/>
 
@@ -173,7 +175,9 @@ I am currently looking for opportunities in **Data Engineering** where I can con
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail)](mailto:yasser.nadi2004@gmail.com)
 
 </div>
+
 ---
+
 ## Contribution Snake
 
 <div align="center">
@@ -195,6 +199,5 @@ I am currently looking for opportunities in **Data Engineering** where I can con
 ![Profile Views](https://komarev.com/ghpvc/?username=NadiYasser&style=for-the-badge&color=blueviolet)
 
 </div>
-
 
 
