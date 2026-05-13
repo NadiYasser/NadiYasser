@@ -93,26 +93,10 @@ A deep learning research project focused on improving the visual quality of sate
 **Tech used:** `Python`, `PyTorch`, `Deep Learning`, `Computer Vision`, `CNN`, `Image Super-Resolution`
 
 <!-- Add repository link when available -->
-<!-- Repo: https://github.com/NadiYasser/YOUR_REPOSITORY -->
+<!-- Repo: https://github.com/NadiYasser/Satellite_Super_Resulotion0 -->
 
 ---
 
-### 🧠 Resume–Job Offer Matching System
-**M-secure Internship Project — July 2025**
-
-An NLP-based application that compares resume content with job offer requirements to estimate candidate-job relevance.
-
-- Extracted and processed candidate skills from CV text
-- Compared resumes and job offers using semantic similarity
-- Used embeddings and transformer-based NLP models
-- Built a simple interface for testing and demonstration
-
-**Tech used:** `Python`, `NLP`, `spaCy`, `BERT`, `Scikit-learn`, `Transformers`, `Streamlit`
-
-<!-- Add repository link when available -->
-<!-- Repo: https://github.com/NadiYasser/YOUR_REPOSITORY -->
-
----
 
 ## Tech Stack
 
