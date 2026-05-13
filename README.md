@@ -74,8 +74,8 @@ A data engineering project simulating the integration of a sports nutrition comp
 
 **Tech used:** `Databricks`, `Delta Lake`, `Apache Spark`, `PySpark`, `AWS S3`, `SQL`, `ETL/ELT`, `Medallion Architecture`
 
-<!-- Add repository link when available -->
-<!-- Repo: https://github.com/NadiYasser/YOUR_REPOSITORY -->
+[![Repository](https://img.shields.io/badge/Repository-View_Code-181717?style=for-the-badge&logo=github)](https://github.com/NadiYasser/Sports-Seller-Acquisition-Data-Merge
+)
 
 ---
 
@@ -92,8 +92,7 @@ A deep learning research project focused on improving the visual quality of sate
 
 **Tech used:** `Python`, `PyTorch`, `Deep Learning`, `Computer Vision`, `CNN`, `Image Super-Resolution`
 
-<!-- Add repository link when available -->
-<!-- Repo: https://github.com/NadiYasser/Satellite_Super_Resulotion0 -->
+[![Repository](https://img.shields.io/badge/Repository-View_Code-181717?style=for-the-badge&logo=github)](https://github.com/NadiYasser/Satellite_Super_Resulotion0)
 
 ---
 
@@ -152,15 +151,15 @@ Visualization: Power BI, Tableau
 
 <div align="center">
 
-![Yasser's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NadiYasser&show_icons=true&theme=tokyonight&hide_border=true)
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=NadiYasser&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Yasser's GitHub Stats" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NadiYasser&layout=compact&theme=tokyonight&hide_border=true)
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NadiYasser&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 
-![GitHub Streak](https://streak-stats.demolab.com?user=NadiYasser&theme=tokyonight&hide_border=true)
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=NadiYasser&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
 </div>
-
-
 
 
 ## Let's Connect
@@ -174,6 +173,18 @@ I am currently looking for opportunities in **Data Engineering** where I can con
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail)](mailto:yasser.nadi2004@gmail.com)
 
 </div>
+---
+## Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NadiYasser/NadiYasser/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NadiYasser/NadiYasser/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/NadiYasser/NadiYasser/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
 
 ---
 
@@ -184,3 +195,6 @@ I am currently looking for opportunities in **Data Engineering** where I can con
 ![Profile Views](https://komarev.com/ghpvc/?username=NadiYasser&style=for-the-badge&color=blueviolet)
 
 </div>
+
+
+
