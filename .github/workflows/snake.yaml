@@ -13,17 +13,68 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate snake animation
-        uses: Platane/snk@v3
+      - name: Generate full snake animation
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: NadiYasser
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Crop snake to last 3 months
+        run: |
+          python3 <<'PY'
+          from pathlib import Path
+          import re
+
+          def crop_svg(input_file, output_file):
+              svg = Path(input_file).read_text(encoding="utf-8")
+
+              viewbox_match = re.search(r'viewBox="([^"]+)"', svg)
+              width_match = re.search(r'width="([0-9.]+)"', svg)
+
+              if not viewbox_match:
+                  raise ValueError(f"No viewBox found in {input_file}")
+
+              x, y, width, height = map(float, viewbox_match.group(1).split())
+
+              # GitHub contribution graph is about 53 weeks wide.
+              # Last 3 months is about 13 weeks.
+              new_width = width * 13 / 53
+              new_x = x + width - new_width
+
+              svg = re.sub(
+                  r'viewBox="[^"]+"',
+                  f'viewBox="{new_x:.2f} {y:.2f} {new_width:.2f} {height:.2f}"',
+                  svg,
+                  count=1
+              )
+
+              if width_match:
+                  svg = re.sub(
+                      r'width="[0-9.]+"',
+                      f'width="{new_width:.0f}"',
+                      svg,
+                      count=1
+                  )
+
+              Path(output_file).write_text(svg, encoding="utf-8")
+
+          crop_svg(
+              "dist/github-contribution-grid-snake.svg",
+              "dist/github-contribution-grid-snake-last-3-months.svg"
+          )
+
+          crop_svg(
+              "dist/github-contribution-grid-snake-dark.svg",
+              "dist/github-contribution-grid-snake-last-3-months-dark.svg"
+          )
+          PY
+
       - name: Push snake animation to output branch
-        uses: peaceiris/actions-gh-pages@v4
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: output
-          publish_dir: ./dist
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
