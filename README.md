@@ -176,26 +176,8 @@ Visualization: Power BI, Tableau
 
 </div>
 
----
 
-## Languages
 
-- Arabic: Native
-- French: Advanced — TCF C1
-- English: Fluent
-
----
-
-## Extracurricular Activities
-
-### Marathon de Martil — AFI
-**Logistics Team Member | November 2024**
-
-- Helped organize the logistics of the event
-- Managed departure and arrival platforms
-- Supported runner flow and finish-line ranking operations
-
----
 
 ## Let's Connect
 
